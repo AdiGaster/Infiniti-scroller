@@ -8,9 +8,10 @@ ctx.fillStyle = 'green'
 ctx.fillRect(10, 10, 100, 100)
 
 for (let i = 0; i < 10; i++) {
-    setTimeout(() => {
-        ctx.fillRect(i * 50 + 50, 450, 20, 20)
-    }, i * 1000)
+  setTimeout(() => {
+    ctx.fillRect(i * 50 + 50, 450, 20, 20)
+  }, i * 1000)
 }
 
 // setInterval - do nauki
+//
